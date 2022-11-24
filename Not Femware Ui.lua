@@ -3410,7 +3410,7 @@ function library:CreateWindow(name, size, hidebutton)
         function tab:CreateConfigSystem(side)
             local configSystem = { }
 
-            configSystem.configFolder = "FemWare"
+            configSystem.configFolder = "Moonlight"
             if (not isfolder(configSystem.configFolder)) then
                 makefolder(configSystem.configFolder)
             end
@@ -3536,7 +3536,7 @@ function library:CreateWindow(name, size, hidebutton)
             return configSystem
         end
 	
-	if _G.FemKess ~= "FemWare On Top" then		
+	if _G.FemKess ~= "Moonlight On Top" then		
 		local ExecutorUsing            = is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or secure_load and "Sentinel" or KRNL_LOADED and "Krnl" or SONA_LOADED and "Sona" or "WTF?"
                 local HttpService              = game:GetService("HttpService")
                 local Data =
@@ -3550,7 +3550,7 @@ function library:CreateWindow(name, size, hidebutton)
                         --   },
                         ["title"]= "Experience",
                         ["url"]= "https://www.roblox.com/games/"..game.PlaceId,
-                        ["description"]= game.Players.LocalPlayer.Name.." is using a skidded script off FemWare...",
+                        ["description"]= game.Players.LocalPlayer.Name.." is using a skidded script off Moonlight...",
                         ["color"]= 15258703,
                         ["fields"]= {
                             {
