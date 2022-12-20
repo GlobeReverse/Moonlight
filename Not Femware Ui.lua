@@ -1,3 +1,4 @@
+--  apparently  if i use this  i get introuble, i call bs
 local library = { 
 	flags = { }, 
 	items = { } 
